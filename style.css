@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #c8d8e4;
+}
+
+.navbar {
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 2rem;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light"
+}
+
+
+.my-image {
+  width: 35%;
+   height: auto;
+   border-radius: 50%;
+   padding-top: 5%;
+   padding-bottom: 10%;
+}
+
+@media screen and (max-width:900px){
+  .my-image{
+    width: 60%;
+  }
+}
+
+.is-bottom{
+  width: 80%;
+  margin-bottom: -17%;
+}
+
+.main-heading{
+  padding: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.intro{
+  background-color: #2b6777;
+}
+
+.hello-text{
+  padding-top: 10%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.intro-text{
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #ffffff;
+  padding-bottom: 10%;
+  margin-top: 2%;
+}
+#skills{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.section-heading {
+  font-weight: bold;
+}
+
+.card-header{
+  background-color: #52ab98;
+  color: #030e12;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.bolding{
+  font-weight:bold;
+}
+
+.skill-text{
+  color: #52ab98;
+}
+
+h5{
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 991px) {
+  .my-image{
+    position: static;
+    width: 90%;
+  }
+
+  .is-bottom{
+    position:static;
+    width: 100%;
+
+  }
+
+  .title{
+    font-size: 70px;
+  }
+
+  .subtitle{
+    font-size: 50px;
+  }
+
+}
+
+#footer{
+  padding-top: 10%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+a{
+  color: #2b6777;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.contact-me{
+  padding-bottom: 12%;
+}
+
+
+.btn {
+  background: #f2f2f2;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #2b6777;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+#projects{
+  background-color: #2b6777;
+  text-align: center;
+}
+
+.project-heading{
+  color: #030e12;
+  font-weight: bold;
+  padding-top: 3%;
+}
+.row{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+
+.logo{
+  width: 18%;
+  border-radius: 50%;
+}
