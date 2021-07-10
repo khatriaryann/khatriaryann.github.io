@@ -32,6 +32,10 @@ body {
    padding-bottom: 10%;
 }
 
+.row>*{
+  margin-top: 50px;
+}
+
 @media screen and (max-width:900px){
   .my-image{
     width: 60%;
