@@ -186,6 +186,10 @@ h5{
    padding-right: 30px;
  }
 
+ .row>*{
+   margin-top: 50px;
+ }
+
 }
 
 #footer{
